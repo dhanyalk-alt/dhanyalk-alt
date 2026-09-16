@@ -2,9 +2,10 @@ name: Generate contribution snake
 
 on:
   schedule:
-    # runs once a day at 00:17 UTC — edit to taste
     - cron: "17 0 * * *"
-  workflow_dispatch: {}
+
+  workflow_dispatch:
+
   push:
     branches:
       - main
@@ -15,23 +16,24 @@ permissions:
 jobs:
   generate-snake:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Generate a pink/purple themed snake animation
+      - name: Generate pink and purple contribution snake
         uses: Platane/snk@v3
-        id: snake-gif
         with:
           github_user_name: ${{ github.repository_owner }}
+
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-          # custom pink -> purple palette to match the profile theme
+
           color_snake: "#ff4fd8"
           color_dots: "#2a1440,#7c1d6f,#a855f7,#e879f9,#ff4fd8"
 
-      - name: Push the generated snake to the "output" branch
+      - name: Publish snake to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
-          target_branch: output
           build_dir: dist
+          target_branch: output
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
