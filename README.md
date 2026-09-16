@@ -21,7 +21,7 @@
 </td>
 <td width="62%" valign="middle">
 
-### 🌸 My Anime Creations
+### 🌸 My Creations
 
 | 🎌 Project | 💻 Tech | - |
 |:---|:---:|:---:|
