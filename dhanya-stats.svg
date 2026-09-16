@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300">
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#ff4fb3"/><stop offset="1" stop-color="#9b5cff"/></linearGradient><style>
+.r{animation:spin 7s linear infinite;transform-origin:150px 150px}@keyframes spin{to{transform:rotate(360deg)}}
+.row{animation:slide .6s ease-out both}@keyframes slide{from{opacity:0;transform:translateX(30px)}to{opacity:1;transform:none}}
+</style></defs>
+<rect width="900" height="300" rx="28" fill="#140a20" stroke="#ff70cf" stroke-opacity=".4"/>
+<circle cx="150" cy="150" r="92" fill="none" stroke="#4a2a57" stroke-width="20"/>
+<circle class="r" cx="150" cy="150" r="92" fill="none" stroke="url(#g)" stroke-width="12" stroke-dasharray="360 220"/>
+<text x="150" y="143" text-anchor="middle" fill="#fff" font-family="Arial" font-size="31" font-weight="800">6</text>
+<text x="150" y="171" text-anchor="middle" fill="#ff8edb" font-family="monospace" font-size="13">REPOS</text>
+<text x="300" y="60" fill="#fff" font-family="Arial" font-size="25" font-weight="800">GitHub Snapshot</text>
+<g class="row" style="animation-delay:.1s"><text x="300" y="105" fill="#cdbbd8" font-family="monospace" font-size="17">Followers</text><text x="790" y="105" text-anchor="end" fill="#ff8edb" font-family="monospace" font-size="19">3</text></g>
+<g class="row" style="animation-delay:.25s"><text x="300" y="150" fill="#cdbbd8" font-family="monospace" font-size="17">Following</text><text x="790" y="150" text-anchor="end" fill="#ff8edb" font-family="monospace" font-size="19">4</text></g>
+<g class="row" style="animation-delay:.4s"><text x="300" y="195" fill="#cdbbd8" font-family="monospace" font-size="17">Stars</text><text x="790" y="195" text-anchor="end" fill="#ff8edb" font-family="monospace" font-size="19">0</text></g>
+<g class="row" style="animation-delay:.55s"><text x="300" y="240" fill="#cdbbd8" font-family="monospace" font-size="17">Public repos</text><text x="790" y="240" text-anchor="end" fill="#ff8edb" font-family="monospace" font-size="19">6</text></g>
+</svg>

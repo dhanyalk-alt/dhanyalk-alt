@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300">
+<defs><linearGradient id="p" x1="0" x2="1"><stop stop-color="#ff4fb3"/><stop offset="1" stop-color="#9b5cff"/></linearGradient><style>
+.b{animation:grow 1.2s ease-out both;transform-origin:left}@keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}.t{animation:fade .7s both}@keyframes fade{from{opacity:0}to{opacity:1}}
+</style></defs>
+<rect width="900" height="300" rx="28" fill="#140a20" stroke="#ff70cf" stroke-opacity=".4"/>
+<text x="45" y="55" fill="#fff" font-family="Arial" font-size="25" font-weight="800">Tech Focus</text>
+<g font-family="monospace" font-size="16" fill="#d9c8e2">
+<text x="50" y="100">Python</text><text x="50" y="145">JavaScript / React</text><text x="50" y="190">SQL</text><text x="50" y="235">C / Web / ML</text></g>
+<g transform="translate(240 88)">
+<rect width="560" height="18" rx="9" fill="#32203e"/><rect class="b" width="420" height="18" rx="9" fill="url(#p)"/>
+<rect y="45" width="560" height="18" rx="9" fill="#32203e"/><rect class="b" y="45" width="350" height="18" rx="9" fill="url(#p)" style="animation-delay:.15s"/>
+<rect y="90" width="560" height="18" rx="9" fill="#32203e"/><rect class="b" y="90" width="310" height="18" rx="9" fill="url(#p)" style="animation-delay:.3s"/>
+<rect y="135" width="560" height="18" rx="9" fill="#32203e"/><rect class="b" y="135" width="270" height="18" rx="9" fill="url(#p)" style="animation-delay:.45s"/></g>
+<text x="815" y="102" text-anchor="end" fill="#ff91dd" font-family="monospace" font-size="15">primary</text>
+<text x="815" y="147" text-anchor="end" fill="#ff91dd" font-family="monospace" font-size="15">frontend</text>
+<text x="815" y="192" text-anchor="end" fill="#ff91dd" font-family="monospace" font-size="15">data</text>
+<text x="815" y="237" text-anchor="end" fill="#ff91dd" font-family="monospace" font-size="15">core</text>
+</svg>
