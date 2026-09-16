@@ -2,9 +2,9 @@
 
 <!-- ✨ Animated Banner ✨ -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./banner.svg?v=7">
-  <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg?v=1">
-  <img src="./banner.svg?v=7" alt="Dhanya LK — developer" width="100%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="./banner(2).svg?v=7">
+  <source media="(prefers-color-scheme: light)" srcset="./banner-light(2).svg?v=1">
+  <img src="./banner(2).svg?v=7" alt="Dhanya LK — developer" width="100%"/>
 </picture>
 
 </div>
