@@ -23,12 +23,11 @@
 
 ### 🌸 My Anime Creations
 
-| 🎌 Project | 💻 Tech | ⭐ |
+| 🎌 Project | 💻 Tech | - |
 |:---|:---:|:---:|
-| [🍥 energy-marketplace](https://github.com/dhanyalk-alt/energy-marketplace.git) |
-`JavaScript` `Python` `CSS` `HTML`| 25 |
-| [⚔️ fisherman_planner](https://github.com/dhanyalk-alt/fisherman_planner.git) | `HTML` `CSS` `JS` | 9 |
-| [🌙 FSDproject](https://github.com/dhanyalk-alt/FSDproject.git) | `HTML` `CSS` `JS` | 8 |
+| [🍥 energy-marketplace](https://github.com/dhanyalk-alt/energy-marketplace.git) |`JavaScript` `Python` `CSS` `HTML`| - |
+| [⚔️ fisherman_planner](https://github.com/dhanyalk-alt/fisherman_planner.git) | `HTML` `CSS` `JS` | - |
+| [🌙 FSDproject](https://github.com/dhanyalk-alt/FSDproject.git) | `HTML` `CSS` `JS` | - |
 
 
 <br/>
