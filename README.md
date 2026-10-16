@@ -25,10 +25,10 @@
 
 | 🎌 Project | 💻 Tech | - |
 |:---|:---:|:---:|
-| [🍥 energy-marketplace](https://github.com/dhanyalk-alt/energy-marketplace.git) |`JavaScript` `Python` `CSS` `HTML`| - |
-| [⚔️ fisherman_planner](https://github.com/dhanyalk-alt/fisherman_planner.git) | `HTML` `CSS` `JS` | - |
-| [🌙 FSDproject](https://github.com/dhanyalk-alt/FSDproject.git) | `HTML` `CSS` `JS` | - |
-
+| [ energy-marketplace](https://github.com/dhanyalk-alt/energy-marketplace.git) |`JavaScript` `Python` `CSS` `HTML`| - |
+| [ fisherman_planner](https://github.com/dhanyalk-alt/fisherman_planner.git) | `HTML` `CSS` `JS` | - |
+| [ FSDproject](https://github.com/dhanyalk-alt/FSDproject.git) | `HTML` `CSS` `JS` | - |
+| [ zero-trust-secure-file-sharing](https://github.com/dhanyalk-alt/zero-trust-secure-file-sharing.git) | `JavaScript` `Python` `CSS` `HTML` | - |
 
 <br/>
 
